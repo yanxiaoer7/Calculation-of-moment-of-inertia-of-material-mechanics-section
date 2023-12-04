@@ -196,7 +196,7 @@ double CalculateNeutralAxis(double b1, double d1, double b2, double d2, double h
 
 	double S0 = A1 + A2 + A3;
 	double y0 = (A1 * y1 + A2 * y2 + A3 * y3) / S0;
-	return y0/2; // 中性轴位置相对于下翼板底部
+	return y0 / 2.0; // 中性轴位置相对于下翼板底部
 }
 
 double CalculateInertia(double b1, double d1, double b2, double d2, double h1, double d3, double y0)
